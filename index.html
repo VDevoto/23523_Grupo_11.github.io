@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConTech: Homepage</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>  
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">  
+</head>
+<body>
+    <header>
+        <nav>
+            <div><a href="index.html" class="logo">ConTech</a></div>
+            <ul class="nav-links">
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="FAQ.html">PREGUNTAS FRECUENTES</a></li>
+                <li><a href="nosotros.html">SOBRE NOSOTROS</a></li>
+            </ul>
+            <button class="habilitar-menu">☰</button>
+        </nav>
+    </header>
+    
+
+    <div class="banner">
+        <div class="text-scroll">VALORES DOLAR HOY: Dolar Oficial (USD): $<span id="precioDolar"></span> || Dolar BLUE: $<span id="precioDolarBlue"></span></div>
+    </div>
+
+    <main>
+        <div class="slideshow">
+            <div class="slide">
+                <img src="Images/CarruselHomePage1.jpg" alt="Consultores">
+                <div class="Texto_Slide">
+                    <h1>Consultores</h1>
+                    <p class="mb">Servicios de consultoria online</p>
+                    <button class="scale"><a href="FAQ.html">Saber más</a></button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="Images/CarruselHomePage2.jpg" alt="Servicios">
+                <div class="Texto_Slide">
+                    <h1>Nuestos servicios</h1>
+                    <p class="mb">Conoce lo que hacemos para ayudarte</p>
+                    <button class="scale"><a href="servicios.html">Saber más</a></button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="Images/CarruselHomePage3.jpg" alt="Contacto">
+                <div class="Texto_Slide">
+                    <h1>Contacte con nosotros</h1>
+                    <p class="mb">No te quedes con dudas</p>
+                    <button class="scale"><a href="nosotros.html">Saber más</a></button>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="prev scale"><i class="fi fi-br-angle-left"></i></div>
+                <div class="next scale"><i class="fi fi-br-angle-right"></i></div>
+            </div>
+        </div>
+        
+        <Section>
+            <div class="Contenedor">
+                <h2>Nuestros Servicios</h2>
+                <div class="Contenedor_Row">
+                    <a href="servicios.html#altas" class="Item scale">
+                        <div class="ItemImagen">
+                            <img class="ImagenResponsive" src="Images/Imagen1.jpg" alt="Altas/Bajas de Monotributo">
+                            <div class="ItemContenido">
+                                <h4>Altas/Bajas de Monotributo</h4>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="servicios.html#reclasificacion" class="Item scale">
+                        <div class="ItemImagen">
+                            <img class="ImagenResponsive" src="Images/Imagen2.jpg" alt="Reclasificacion Monotributo">
+                            <div class="ItemContenido">
+                                <h4>Reclasificacion de Monotributo</h4>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="servicios.html#membresia" class="Item scale">
+                        <div class="ItemImagen">
+                            <img class="ImagenResponsive" src="Images/Imagen3.jpg" alt="Membresia Monotributo">
+                            <div class="ItemContenido">
+                                <h4>Membresia de Monotributo</h4>
+                             </div>
+                        </div>
+                    </a>
+
+                </div>                
+            </div>
+        </Section>
+
+    </main>
+    
+    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; 2023 Codo a Codo Python - Grupo 11. Todos los Derechos Reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>  
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div><a href="index.html" class="logo">ConTech</a></div>
+            <ul class="nav-links">
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="FAQ.html">PREGUNTAS FRECUENTES</a></li>
+                <li><a href="nosotros.html">SOBRE NOSOTROS</a></li>
+            </ul>
+            <button class="habilitar-menu">☰</button>
+        </nav>
+    </header>
+    
+    <main>
+    <!-- Section Nosotros -->
+        <section class="mb">
+            <h1 class="mb">Nosotros:</h1>
+
+            <p class="mb">ConTech (de Contabilidad y Technology) es una empresa ficticia de asesoria contable, que provee servicios de asesoramiento para clientes mediante correo y llamada.</p>
+
+            <p class="mb">Esta pagina es un proyecto hecho para el curso Codo a Codo Fullstack Python por los alumnos Juan Manuel Della Gaspera, Gleiver David Segovia y Valentin Devoto.</p>
+        </section>     
+
+    <!-- Seccion Esbribenos -->
+        <section class="mb">
+            <h1 class="mb">Escribenos:</h1>
+
+            <p class="mb">Por cualquier motivo, ya sean quejas, consultas u otro tipo de notificación o mensaje dirigido a la empresa lo puede hacer completando los siguientes campos del formulario:</p>
+
+            <form action="" class="mb">
+                <div class="container p-3">
+                    <div class="mb-3">
+                        <label for="Nombre" class="label">Nombre:</label>
+                        <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su nombre" required class="form-control" name="Nombre">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="Apellido" class="label">Apellido:</label>
+                        <input type="text" name="Apellido" id="Apellido" placeholder="Ingrese su apellido" required class="form-control" name="Apellido">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="Email" class="label">Email:</label>
+                        <input type="mail" required placeholder="Ingrese su mail" class="form-control" name="Email">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="Telefono" class="label">Telefono:</label>
+                        <input type="number" name="Telefono" id="Telefono" placeholder="Ingrese su numero de telefono" maxlength="10" required class="form-control" name="Telefono">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="Asunto" class="label">Asunto:</label>
+                        <input type="text" required maxlength="50" placeholder="Ingrese el Asunto" class="form-control" name="Asunto">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="Mensaje" class="label">Mensaje:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Cuentenos sobre su duda" name="Mensaje"></textarea>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="Como prefieres que te contactemos" class="label">Como prefieres que te contactemos:</label>
+                        <input type="checkbox" class="form-check-input">Llamada
+                        <input type="checkbox" class="form-check-input">Whatsapp
+                        <input type="checkbox" class="form-check-input">Mail
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary scale"><i class="fi fi-br-envelope">Enviar</i></button>
+                </div>      
+            </form>
+        </section>
+
+        <!-- Seccion Encuentranos -->
+        <section class="mb">
+            <h1>Encuentranos:</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.322537742872!2d-58.38918710000002!3d-34.596004699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabeb53f3e21%3A0xc36042dc9e6174ac!2sAv.%20Sta.%20Fe%201550%2C%20C1021%20CABA!5e0!3m2!1ses-419!2sar!4v1695842476990!5m2!1ses-419!2sar" width="600" height="450" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <!-- Seccion Agendanos -->
+        <section class="mb">
+            <h1 class="mb">Agendanos:</h1>
+            <p class="mb">Reserva ahora una llamada gratuita de 15 a 20 minutos para conocer nuestros servicios. Aclararemos tus dudas y responderemos tus preguntas</p>
+
+            <!-- Turno de llamadas -->
+            <div class="mb">
+                <h4 class="mb">Agenda un turno:</h4>
+                <form action="">
+                    <div class="container">
+                        <div class="mb">
+                            <label for="Dia">Dia</label>
+                            <input class="form-control" type="date" name="Dia"> 
+                        </div>
+                        <div class="mb">
+                            <label for="Hora">Hora:</label>
+                            <input class="form-control" type="time" name="Hora">
+                        </div>
+                        <button type="submit" class="btn-primary scale"><i class="fi fi-br-calendar">Solicitar</i></button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+ 
+    <footer>
+        <p>&copy; 2023 Codo a Codo Python - Grupo 11. Todos los Derechos Reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
